@@ -36,7 +36,7 @@ Please ensure the following software is installed:
 	* Domain-based query sequences (FASTA format)
 * **-o <out_file>**
 	* Output file (default: ./results.txt)
-* **-Easdasdasd evalue**
+* **-E <evalue>**
 	* E-value threshld (default: 1e-5)
 * **-t <num_threads>**
 	* Number of threads (default: 1)
