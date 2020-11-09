@@ -13,7 +13,7 @@ Please ensure the following software is installed:
 ## Usage
 
 * Identify all orthologous relationships without query sequences
-	* `python kinortho.py <reference_proteomes> [OPTIONS]`
+	* **`python kinortho.py <reference_proteomes> [OPTIONS]`**
 		* Example: python kinortho.py ./example/reference_proteomes/
 
 * KinOrtho (Full-length): full-length orthology inference with query sequences
