@@ -43,7 +43,7 @@ Please ensure the following software is installed:
 * **-i <inflation_value>**
 	* This value handles for affecting cluster granularity. (default: 1.5)
 * **-e <min_ev>**
-	* Minimal E-value. The E-value '0' from BLAST output will be replaced by the value of minimal E-value. (default: 1e-200)
+	* Minimal E-value. This value will replace the E-value '0' in BLAST output. (default: 1e-200)
 
 ## Example datasets
 
