@@ -17,32 +17,32 @@ Please ensure the following software is installed:
 		* Example: python kinortho.py ./example/reference_proteomes/
 
 * KinOrtho (Full-length): full-length orthology inference with query sequences
-	* `python kinortho.py <reference_proteomes> -f <full_length_query_seqs>`
+	* **`python kinortho.py <reference_proteomes> -f <full_length_query_seqs>`**
 		* Example: python kinortho.py ./example/reference_proteomes/ -f ./example/HumanProteinKinase.fasta
 		
 * KinOrtho (Domain-based): domain-based orthology inference with query sequences
-	* `python kinortho.py <reference_proteomes> -d <domain_based_query_seqs>`
+	* **`python kinortho.py <reference_proteomes> -d <domain_based_query_seqs>`**
 		* Example: `python kinortho.py ./example/reference_proteomes/ -d ./example/HumanKinaseDomain.fasta`
 
 * KinOrtho (Overlapping): combines full-length and domain-based orthology inference results
-	* `python kinortho.py <reference_proteomes> -f <full_length_query_seqs> -d <domain_based_query_seqs>`
+	* **`python kinortho.py <reference_proteomes> -f <full_length_query_seqs> -d <domain_based_query_seqs>`**
 		* Example: `python kinortho.py ./example/reference_proteomes/ -f ./example/HumanProteinKinase.fasta -d ./example/HumanKinaseDomain.fasta`
 
 ## Options
 
-* -f <full_length_query_seqs>
+* **-f <full_length_query_seqs>**
 	* Full-lengt query sequences (FASTA format)
-* -d <domain_based_query_seqs>
+* **-d <domain_based_query_seqs>**
 	* Domain-based query sequences (FASTA format)
-* -o <out_file>
+* **-o <out_file>**
 	* Output file (default: ./results.txt)
-* -E <evalue>
+* **-E <evalue>**
 	* E-value threshld (default: 1e-5)
-* -t <num_threads>
+* **-t <num_threads>**
 	* Number of threads (default: 1)
-* -i <inflation>
+* **-i <inflation>**
 	* This value handles for affecting cluster granularity. (default: 1.5)
-* -e <min_ev>
+* **-e <min_ev>**
 	* Minimal E-value. The E-value '0' from BLAST output will be replaced by the value of minimal E-value. (default: 1e-200)
 
 ## Example datasets
