@@ -1,14 +1,14 @@
-## KinOrtho: a combination of full-length and domain-based orthology inference methods for identifying kinase orthologs and illuminating understudied kinases
+## KinOrtho: a combination of full-length and domain-based orthology inference methods
 
 ## Requirement
 
 Please ensure the following software is installed:
 
-- `Python ` []()
-- `Biopython ` [https://biopython.org/wiki/Download/](https://biopython.org/wiki/Download/)
-- `NumPy ` [https://numpy.org/install/](https://numpy.org/install/)
-- `NCBI BLAST+ v2.7.1 or later` [https://ftp.ncbi.nlm.nih.gov/blast/executables/blast+/2.7.1/](https://ftp.ncbi.nlm.nih.gov/blast/executables/blast+/2.7.1/)
-- `MCL v14.137 or later` [https://micans.org/mcl/](https://micans.org/mcl/)
+- `Python (v3.7.4 or later)` [https://www.python.org/downloads/](https://www.python.org/downloads/)
+- `Biopython (v1.75 or later)` [https://biopython.org/wiki/Download/](https://biopython.org/wiki/Download/)
+- `NumPy (v1.19.4 or later)` [https://numpy.org/install/](https://numpy.org/install/)
+- `NCBI BLAST+ (v2.7.1 or later)` [https://ftp.ncbi.nlm.nih.gov/blast/executables/blast+/2.7.1/](https://ftp.ncbi.nlm.nih.gov/blast/executables/blast+/2.7.1/)
+- `MCL (v14.137 or later)` [https://micans.org/mcl/](https://micans.org/mcl/)
 
 ## Usage
 
@@ -24,7 +24,7 @@ Please ensure the following software is installed:
 	* **`python kinortho.py <reference_proteomes> -d <domain_based_query_seqs>`**
 		* Example: `python kinortho.py ./example/reference_proteomes/ -d ./example/HumanKinaseDomain.fasta`
 
-* KinOrtho (Overlapping): combines full-length and domain-based orthology inference results
+* KinOrtho (Overlapping): combines the full-length and domain-based orthology inference results
 	* **`python kinortho.py <reference_proteomes> -f <full_length_query_seqs> -d <domain_based_query_seqs>`**
 		* Example: `python kinortho.py ./example/reference_proteomes/ -f ./example/HumanProteinKinase.fasta -d ./example/HumanKinaseDomain.fasta`
 
@@ -55,4 +55,4 @@ Please ensure the following software is installed:
 
 To cite our work, please refer to:
 
-> KinOrtho: a combination of full-length and domain-based orthology inference methods for identifying kinase orthologs and illuminating understudied kinases. Liang-Chin Huang, Rahil Taujale, Nathan Gravel, Aarya Venkat, Wayland Yeung, and Natarajan Kannan. https://
+> KinOrtho: a combination of full-length and domain-based orthology inference methods for identifying kinase orthologs and illuminating understudied kinases. Liang-Chin Huang, Rahil Taujale, Nathan Gravel, Aarya Venkat, Wayland Yeung, and Natarajan Kannan.
