@@ -16,17 +16,17 @@ Please ensure the following software is installed:
 * KinOrtho (Full-length): full-length orthology inference with query sequences
 	* **`python kinortho.py -i <reference_proteomes> -f <full_length_query_seqs>`**
 		* Example: python kinortho.py -i ./example/reference_proteomes/ -f ./example/HumanProteinKinase.fasta
-		* Output: [https://github.com/esbgkannan/KinOrtho/tree/main/example/output/full-length/](https://github.com/esbgkannan/KinOrtho/tree/main/example/output/full-length/)
+		* Output: [https://github.com/leon1003/KinOrtho/tree/main/example/output/full-length/](https://github.com/leon1003/KinOrtho/tree/main/example/output/full-length/)
 		
 * KinOrtho (Domain-based): domain-based orthology inference with query sequences
 	* **`python kinortho.py -i <reference_proteomes> -d <domain_based_query_seqs>`**
 		* Example: `python kinortho.py -i ./example/reference_proteomes/ -d ./example/HumanKinaseDomain.fasta`
-		* Output: [https://github.com/esbgkannan/KinOrtho/tree/main/example/output/domain-based/](https://github.com/esbgkannan/KinOrtho/tree/main/example/output/domain-based/)
+		* Output: [https://github.com/leon1003/KinOrtho/tree/main/example/output/domain-based/](https://github.com/leon1003/KinOrtho/tree/main/example/output/domain-based/)
 
 * KinOrtho (Overlapping): combines the full-length and domain-based orthology inference results
 	* **`python kinortho.py -i <reference_proteomes> -f <full_length_query_seqs> -d <domain_based_query_seqs>`**
 		* Example: `python kinortho.py -i ./example/reference_proteomes/ -f ./example/HumanProteinKinase.fasta -d ./example/HumanKinaseDomain.fasta`
-		* Output: [https://github.com/esbgkannan/KinOrtho/tree/main/example/output/overlapping/](https://github.com/esbgkannan/KinOrtho/tree/main/example/output/overlapping/)
+		* Output: [https://github.com/leon1003/KinOrtho/tree/main/example/output/overlapping/](https://github.com/leon1003/KinOrtho/tree/main/example/output/overlapping/)
 
 ## Options
 
@@ -97,13 +97,13 @@ Please ensure the following software is installed:
 
 ## Example datasets
 
-* [Reference proteomes](https://github.com/esbgkannan/KinOrtho/tree/main/example/reference_proteomes) `(human, mouse, and fruit fly)`
-* [Query sequences (full-length)](https://github.com/esbgkannan/KinOrtho/blob/main/example/HumanProteinKinase.fasta) `(545 human protein kinases)`
-* [Query sequences (domain-based)](https://github.com/esbgkannan/KinOrtho/blob/main/example/HumanKinaseDomain.fasta) `(558 human kinase domains)`
+* [Reference proteomes](https://github.com/leon1003/KinOrtho/tree/main/example/reference_proteomes) `(human, mouse, and fruit fly)`
+* [Query sequences (full-length)](https://github.com/leon1003/KinOrtho/blob/main/example/HumanProteinKinase.fasta) `(545 human protein kinases)`
+* [Query sequences (domain-based)](https://github.com/leon1003/KinOrtho/blob/main/example/HumanKinaseDomain.fasta) `(558 human kinase domains)`
 
 ## Updates
 
-* [v1.0.0](https://github.com/esbgkannan/KinOrtho/tree/main/version/v1.0.0/)
+* [v1.0.0](https://github.com/leon1003/KinOrtho/tree/main/version/v1.0.0/)
 	* The first version of KinOrtho
 
 ## Citation
