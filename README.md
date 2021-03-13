@@ -98,8 +98,8 @@ Please ensure the following software is installed:
 ## Example datasets
 
 * [Reference proteomes](https://github.com/leon1003/KinOrtho/tree/master/example/reference_proteomes) `(human, mouse, and fruit fly)`
-* [Query sequences (full-length)](https://github.com/leon1003/KinOrtho/blob/main/example/HumanProteinKinase.fasta) `(545 human protein kinases)`
-* [Query sequences (domain-based)](https://github.com/leon1003/KinOrtho/blob/main/example/HumanKinaseDomain.fasta) `(558 human kinase domains)`
+* [Query sequences (full-length)](https://github.com/leon1003/KinOrtho/blob/master/example/HumanProteinKinase.fasta) `(545 human protein kinases)`
+* [Query sequences (domain-based)](https://github.com/leon1003/KinOrtho/blob/master/example/HumanKinaseDomain.fasta) `(558 human kinase domains)`
 
 ## Updates
 
