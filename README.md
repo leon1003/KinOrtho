@@ -1,7 +1,7 @@
 ## KinOrtho: a combination of full-length and domain-based orthology inference methods
 
 ## Requirement
-
+ 
 Please ensure the following software is installed:
 
 - `Python (v3.7.4 or later)` [https://www.python.org/downloads/](https://www.python.org/downloads/)
